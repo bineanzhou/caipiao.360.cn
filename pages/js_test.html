@@ -7,8 +7,8 @@
 <title>aa</title>
 
 <script>
-			function send2Android(){		
-			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"1\",  \"resultMsg\": \"当前版本不支持，请升级到最新版本！\",  \"actionCode\": \"1\" }");
+			function send2AndroidErr(){		
+			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"1\",  \"resultMsg\": \"当前版本不支持，请升级到最新版本！\"");
 			}
 			function send2Android(){		
 			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"0\",  \"resultMsg\": \"成功\",  \"actionCode\": \"1\" }");
@@ -21,7 +21,7 @@
 
 <body>
 	<center>
-      <input type="button" id="button1" value="测试异常信息" onclick="loadDone1()"/><br>
+      <input type="button" id="button1" value="测试异常信息" onclick="send2AndroidErr()"/><br>
       <input type="button" id="button2" value="activity" onclick="send2Android()"/>
   </center>
   
