@@ -8,7 +8,8 @@
 
 <script>
 			function send2AndroidErr(){		
-			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"1\",  \"resultMsg\": \"当前版本不支持，请升级到最新版本！\" }");
+			 	var result = {"resultCode": "1", "resultMsg": "当前版本不支持，请升级到最新版本！"};
+		 		window.lotteryJs.runOnAndroidJavaScript(JSON.stringify(result));
 			}
 			
 			function send2Android(actionCode){
