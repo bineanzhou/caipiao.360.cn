@@ -8,17 +8,6 @@ title: 360彩票
 　　{% for post in site.posts %}
 　　　　<li>{{ post.date | date_to_string }} <a href="/jekyll_demo{{ post.url }}">{{ post.title }}</a></li>
 　　{% endfor %}
-    <div class="section">
-        <ul class="artical-list">
-        {% for post in site.categories.files %}
-            <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <div class="title-desc">{{ post.description }}</div>
-            </li>
-        {% endfor %}
-        </ul>
-        <li><a href="http://bineanzhou.github.io/jekyll_demo/files/test.html">Js Test</a></li>
-        <li><a href="https://github.com/bineanzhou/caipiao.360.cn">Visit Project</a></li>
-    </div>
-
+    <li><a href="http://bineanzhou.github.io/caipiao.360.cn/pages/js_test.html">Js Test</a></li>
+    <li><a href="https://github.com/bineanzhou/caipiao.360.cn">Visit Project</a></li>
 </ul>
