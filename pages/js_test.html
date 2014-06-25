@@ -10,6 +10,9 @@
 			function send2AndroidErr(){		
 			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"1\",  \"resultMsg\": \"当前版本不支持，请升级到最新版本！\" }");
 			}
+			function send2AndroidLogin(){		
+			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"0\",  \"resultMsg\": \"成功\",  \"actionCode\": \"300\" }");
+			}
 			function send2Android(){		
 			 	window.lotteryJs.runOnAndroidJavaScript("{\"resultCode\": \"0\",  \"resultMsg\": \"成功\",  \"actionCode\": \"1\" }");
 			}
@@ -22,8 +25,9 @@
 <body>
 	
 	<center>
-      <input style="padding: 0.5em; width:360px;" type="button" id="button1" value="提示用户升级" onclick="send2AndroidErr()"/><br>
-      <input style="padding: 0.5em; width:360px;" type="button" id="button2" value="activity" onclick="send2Android()"/><br>
+      <input style="padding: 0.5em; width:80%;" type="button" id="button1" value="提示用户升级" onclick="send2AndroidErr()"/><br>
+      <input style="padding: 0.5em; width:80%;" type="button" id="button1" value="提示用户登录" onclick="send2AndroidLogin()"/><br>
+      <input style="padding: 0.5em; width:80%;" type="button" id="button2" value="activity" onclick="send2Android()"/><br>
   </center>
   
   
