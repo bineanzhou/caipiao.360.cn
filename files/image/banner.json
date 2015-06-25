@@ -1,53 +1,51 @@
 {
-  "data": [
-    {
-      "pic": "http://img5.duitang.com/uploads/blog/201406/30/20140630150534_EWUVY.thumb.jpeg",
-      "title": "title: 1"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/25/20140625121626_ZmT5n.thumb.jpeg",
-      "title": "title: 2"
-    },
-    {
-      "pic": "http://img4.duitang.com/uploads/blog/201307/31/20130731231806_4yGxV.thumb.jpeg",
-      "title": "title: 3"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/28/20140628122218_fLQyP.thumb.jpeg",
-      "title": "title: 4"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/blog/201406/26/20140626131831_MrdKP.thumb.jpeg",
-      "title": "title: 5"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/blog/201406/16/20140616165201_nuKWj.thumb.jpeg",
-      "title": "title: 6"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/25/20140625140308_KP4rn.thumb.jpeg",
-      "title": "title: 7"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/25/20140625121604_2auuA.thumb.jpeg",
-      "title": "title: 8"
-    },
-    {
-      "pic": "http://img4.duitang.com/uploads/item/201406/25/20140625131625_LmmLZ.thumb.jpeg",
-      "title": "title: 9"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/25/20140625132851_mPmKY.thumb.jpeg",
-      "title": "title: 10"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/25/20140625133312_ZtmW4.thumb.jpeg",
-      "title": "title: 11"
-    },
-    {
-      "pic": "http://img5.duitang.com/uploads/item/201406/25/20140625164858_AuafS.thumb.jpeg",
-      "title": "title: 12"
-    }
-  ],
-  "ok": true
+  "config": {
+    "config_ver": "39",
+    "pop_url": "",
+    "pop_code": "",
+    "adv_page": "",
+    "adv_url": "",
+    "adv_code": ""
+  },
+  "banner": {
+    "banner_ver": "336",
+    "is_open": "1",
+    "item_list": [
+      {
+        "is_open": "1",
+        "img": "http://bineanzhou.github.io/caipiao.360.cn/files/image/banner_1.png",
+        "url": "http://m.cp.360.cn/activity/american?act=1&reffer=ios",
+        "code": "",
+        "title": "美洲杯专题",
+      },
+      {
+        "is_open": "1",
+        "img": "http://bineanzhou.github.io/caipiao.360.cn/files/image/banner_2.png",
+        "url": "http://m.cp.360.cn/activity/bonusyh?act=1&reffer=ios",
+        "code": "",
+        "title": "奖金优化",
+      },
+      {
+        "is_open": "1",
+        "img": "http://bineanzhou.github.io/caipiao.360.cn/files/image/banner_3.png",
+        "url": "http://m.cp.360.cn/report/index?page=testpage2.html",
+        "code": "",
+        "title": "停售公告",
+      },
+      {
+        "is_open": "1",
+        "img": "http://bineanzhou.github.io/caipiao.360.cn/files/image/banner_4.png",
+        "url": "http://m.cp.360.cn/news/mobile/15042889.html?act=1&reffer=ios",
+        "code": "",
+        "title": "微信公众号",
+      },
+      {
+        "is_open": "1",
+        "img": "http://bineanzhou.github.io/caipiao.360.cn/files/image/banner_5.png",
+        "url": "http://m.cp.360.cn/news/mobile/15042889.html?act=1&reffer=ios",
+        "code": "",
+        "title": "微信公众号",
+      }
+    ]
+  }
 }
