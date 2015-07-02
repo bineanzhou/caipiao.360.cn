@@ -1,25 +1,24 @@
 {
-"user": {
+  "user": {
     "accrued_income": 50.8,
     "expected_return": 89,
     "total_amount": 5800
   },
   "list": [
     {
-      "title": "360安全票据第2期",
-      "tag": "周期120天|100元起购|100%保本",
+      "title": "360\u5b89\u5168\u7968\u636e\u7b2c2\u671f",
+      "tag": "\u5468\u671f120\u5929|100\u5143\u8d77\u8d2d|100%\u4fdd\u672c",
       "annualized_yield": "4.89%"
     },
     {
-      "title": "360安全票据第3期",
-      "tag": "周期120天|100元起购|100%保本",
+      "title": "360\u5b89\u5168\u7968\u636e\u7b2c3\u671f",
+      "tag": "\u5468\u671f120\u5929|100\u5143\u8d77\u8d2d|100%\u4fdd\u672c",
       "annualized_yield": "5.89%"
     },
     {
-      "title": "360安全票据第3期",
-      "tag": "周期120天|100元起购|100%保本",
+      "title": "360\u5b89\u5168\u7968\u636e\u7b2c3\u671f",
+      "tag": "\u5468\u671f120\u5929|100\u5143\u8d77\u8d2d|100%\u4fdd\u672c",
       "annualized_yield": "5.89%"
     }
   ]
-  
 }
